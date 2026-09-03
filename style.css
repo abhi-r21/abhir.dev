@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0a0a0a;
+    color: #eeeeee;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+}
+
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.name {
+    color: #58a6ff;
+    font-weight: bolder;
+}
+
+.backend, .typescript, .base, .cloud, .art, .full, .js, .react, .node {
+  font-weight: bold;
+}
+
+.react, .js, .node {
+  color: orange;
+}
+
+.art, .backend, .base, .cloud, .typescript {
+  color: darkgreen;
+}
+h2 {
+    margin-bottom: 20px;
+
+    color: #ffffff;
+
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #58a6ff;
+
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.contact {
+    margin-top: 35px;
+}
